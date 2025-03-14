@@ -14,7 +14,7 @@ class HelloWorld {
     }
   
     hello() {
-      return 'World!';
+      return 'Nigger!';
     }
   }
   
