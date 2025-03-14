@@ -1,20 +1,20 @@
 class HelloWorld {
     getInfo() {
       return {
-        id: 'helloworld',
-        name: 'It works!',
+        id: 'vedmedor-URLs',
+        name: 'URL',
         blocks: [
           {
             opcode: 'hello',
-            blockType: Scratch.BlockType.REPORTER,
-            text: 'Hello!'
+            blockType: Scratch.BlockType.COMMAND,
+            text: 'Open URL'
           }
         ]
       };
     }
   
     hello() {
-      return 'World!';
+        window.open("https://example.com", "_blank");
     }
   }
   
